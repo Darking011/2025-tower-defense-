@@ -1,2 +1,3 @@
 # 2025-tower-defense
 Es un juego creado apartir de un estudiante de el colegio Amadeo Sabattini
+Este juego es de los géneros estrategia y rol, el juego trata de que eres un rey que debes proteger tu línea de los enemigos, además de que el juego cuenta con la primera versión que es esta, si tie w alguna idea en qué pueda mejorar puedes decirlo como descripción, muchas gracias por entrar a este repositorio
