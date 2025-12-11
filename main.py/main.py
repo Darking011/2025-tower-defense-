@@ -560,13 +560,19 @@ def main():
                 sys.exit()
         elif estado == "OPCIONES":
             estado = pantalla_opciones(nombre_jugador)
-        elif estado == "TUTORIAL":
-            estado = pantalla_tutorial()
-        elif estado == "RANKING":
-            estado = pantalla_ranking()
-        elif estado == "SALIR":
-            pygame.quit()
-            sys.exit()
+        elif estado ==pantalla_game_over(nombre_jugador, 0) # Puntaje se guarda internamente
+            else: # SALIR
+                pygame.quit()
+                sys.exit()
+        elif estado == "OPCIONES":
+            estado = 
+def pantalla_game_over(nombre_jugador, puntaje):
+    # Muestra texto de game over, guarda el puntaje, y luego muestra ranking
+    guardar_puntaje(nombre_jugador, puntaje)  # si tienes esa función
+    # Si tu pantalla_ranking no necesita parámetros, llámala directamente
+    pantalla_ranking()
+    pygame.time.wait(1000)
+    return "MENU"
 
 if __name__ == "__main__":
     main()
